@@ -30,7 +30,7 @@ onBeforeRender(() => {
         <textureLoader src="/grayscale-map-of-earth.avif" attach="bumpMap"/>
       </meshPhysicalMaterial>
     </mesh>
-    <mesh :position-z="Math.cos(now) * 10" :position-x="Math.sin(now) * 10" :scale="0.25" :rotation-y="moonRotation.y">
+    <mesh :position-z="Math.cos(now * 0.1) * 10" :position-x="Math.sin(now * 0.1) * 10" :scale="0.25" :rotation-y="moonRotation.y">
       <sphereGeometry :args="[1, 32, 32]"/>
       <meshPhysicalMaterial>
         <textureLoader src="/moon-map.jpeg" attach="map"/>
