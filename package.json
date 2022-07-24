@@ -7,6 +7,9 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
+    "lunchboxjs": "^0.1.4017",
+    "three": "^0.141.0",
     "vue": "^3.2.37"
   },
   "devDependencies": {
